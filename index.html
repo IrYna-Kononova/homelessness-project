@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homelessness in Berlin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inria+Sans:wght@300&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:wght@700&family=Protest+Revolution&family=Roboto:wght@300;400;700&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="icon-text">
+        <div class="icon-house"></div>
+        <span>Home</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shelter">Shelter</a></li>
+          <li><a href="#help">How to help</a></li>
+          <li><a href="#news">News and Articles</a></li>
+          <li><a href="#volunteering">Volunteering</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="background"></div>
+
+    <main class="main-block">
+      <section class="main-section">
+        <h1>
+          Homelessness in Berlin: <br />
+          a guide to how each of us can help
+        </h1>
+        <p>
+          Homelessness is a complex social issue that involves individuals or
+          families lacking a fixed, regular, and adequate nighttime residence.
+          This problem affects diverse populations, including men, women,
+          children, veterans, individuals with mental health challenges, and
+          those struggling with substance abuse. <br />
+          <br />
+
+          Since 2014, there has been a 150% increase in the homeless population
+          within the country. Berlin has some of the highest levels of
+          homelessness in Germany. <br /><br /><br />It’s easy to feel entirely
+          powerless, but there are things you can do.
+        </p>
+        <button>
+          <a href="https://www.taskforcex.de/" target="_blank">Help Hotline</a>
+        </button>
+      </section>
+
+      <section class="second-section">
+        <div class="image-section">
+          <img src="./images/section-image.jpg" alt="a man on the street" />
+        </div>
+        <div class="content-section">
+          <h2 id="shelter">Emergency Overnight Shelter</h2>
+          <p>
+            There are also a number of locations around Berlin where people can
+            directly access emergency overnight shelter. These offer a warm
+            place to stay for the night, with many also providing food and
+            medical care. <br />
+            Emergency shelters open all year round. <br />
+            <br />
+            Here are some emergency accommodation spots open throughout the
+            year, providing medical support and help with personal hygiene.
+          </p>
+          <button>
+            <a href="https://kaeltehilfe-berlin.de/" target="_blank"
+              >Emergency shelters</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <!--Cards bootstrap-->
+      <div class="container px-4 py-5 font-vollkorn" id="hanging-icons">
+        <h2 id="help" class="pb-2 text-center text-capitalize">
+          How you can help
+        </h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#cpu-fill"></use>
+              </svg>
+            </div>
+            <div>
+              <h3
+                class="fs-3 text-body-emphasis font-vollkorn custom-text-color"
+              >
+                Help during the day
+              </h3>
+              <p class="custom-text-color">
+                It is not only during the nights when homeless people need
+                support. Here is a detailed list of places around the city where
+                meals, drinks and other resources are available throughout the
+                day.
+              </p>
+              <a
+                href="https://www.kaeltehilfe-berlin.de/angebote"
+                target="_blank"
+                class="btn btn-primary text-capitalize custom-link"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#cpu-fill"></use>
+              </svg>
+            </div>
+            <div>
+              <h3
+                class="fs-3 text-body-emphasis font-vollkorn custom-text-color"
+              >
+                Clothing donations
+              </h3>
+              <p class="custom-text-color">
+                You can give clothes to a good cause.There are several locations
+                around the city where you can donate clothing, but be sure to
+                check online in advance to see which items are needed most.
+              </p>
+              <a
+                href="https://gabenzaun.de/"
+                target="_blank"
+                class="btn btn-primary text-capitalize custom-link"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#venus-solid"></use>
+              </svg>
+            </div>
+            <div>
+              <h3
+                class="fs-3 text-body-emphasis font-vollkorn custom-text-color"
+              >
+                Help for women
+              </h3>
+              <p class="custom-text-color">
+                One factor that can be important when accessing help is gender
+                identity. There are shelters solely for homeless women that
+                provide specific support, including access to personal hygiene
+                products.
+              </p>
+              <a
+                href="https://kaeltehilfe-berlin.de/"
+                target="_blank"
+                class="btn btn-primary text-capitalize custom-link"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Articles bootstrap-->
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 id="news" class="pb-2 text-center text-capitalize">
+          News & articles
+        </h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url(./images/news-card1.jpg);
+                background-size: cover;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold font-vollkorn">
+                  Nobody is born homeless
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/chevron-right-solid.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <a
+                      href="https://www.berlin.de/sen/arbeit/en/faces-of-the-solidary-basic-income/nobody-is-born-homeless-1273188.en.php"
+                      target="_blank"
+                      class="stretched-link"
+                      >Learn more <i class="fa-solid fa-angles-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url(./images/news-card2.jpg);
+                background-size: cover;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold font-vollkorn">
+                  Berlin's new project for the homeless
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/chevron-right-solid.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <a
+                      href="https://www.dw.com/en/protecting-berlins-homeless-from-extreme-heat/a-62540764"
+                      target="_blank"
+                      class="stretched-link"
+                      >Learn more<i class="fa-solid fa-angles-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url(./images/news-card3.jpg);
+                background-size: cover;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold font-vollkorn">
+                  Homeless in Berlin: 7 facts and figures
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/chevron-right-solid.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <a
+                      href="https://mymolo.de/en/homeless-in-berlin-7-facts-and-figures-to-get-a-picture-of-the-situation-in-berlin/"
+                      target="_blank"
+                      class="stretched-link text-capitalize"
+                      >Learn more <i class="fa-solid fa-angles-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Form-->
+
+      <div class="text-form">
+        <h2 id="volunteering">Volunteering</h2>
+        <p>
+          Most of the homeless support facilities are completely dependent on
+          the help of volunteers. <br /><br />
+          There are many ways you can get involved, including food distribution
+          and daily operations. Register and join the team of vulunteers.
+        </p>
+      </div>
+
+      <div class="form-container">
+        <h3>Volunteer Registration</h3>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="day">Choose a Day:</label>
+            <select name="day" id="day" required>
+              <option value="" disabled selected>Select a day</option>
+              <option value="Monday">Monday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="time">Choose a Time:</label>
+            <select name="time" id="time" required>
+              <option value="" disabled selected>Select a time</option>
+              <option value="09:00">9:00 AM</option>
+              <option value="12:00">12:00 PM</option>
+              <option value="17:00">5:00 PM</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-icon">
+        <i class="fa-solid fa-house-chimney-user"></i>
+      </div>
+
+      <div class="footer-text">
+        <a href="#">Back to Home</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
