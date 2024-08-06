@@ -9,12 +9,12 @@ The Homelessness in Berlin project is a comprehensive web resource designed to e
 - **News and Articles:** Stay updated with relevant news and articles about homelessness in Berlin.
 - **Volunteer Registration:** Easily sign up to volunteer and contribute to local efforts supporting the homeless.
 ## Sections
-**Header:** Provides navigation links to different sections of the page for easy access.
-**Main Section:** Features an introduction to homelessness in Berlin and a call-to-action for helping through the provided hotline.
-**Emergency Overnight Shelter:** Offers information on shelters and resources available around the clock.
-**How You Can Help:** Details various ways to assist, including daytime support, clothing donations, and women-specific aid.
-**News & Articles:** Showcases recent articles and news about homelessness with links to further reading.
-**Volunteering:** Includes a registration form for those interested in volunteering and contributing to support efforts.
+- **Header:** Provides navigation links to different sections of the page for easy access.
+- **Main Section:** Features an introduction to homelessness in Berlin and a call-to-action for helping through the provided hotline.
+- **Emergency Overnight Shelter:** Offers information on shelters and resources available around the clock.
+- **How You Can Help:** Details various ways to assist, including daytime support, clothing donations, and women-specific aid.
+- **News & Articles:** Showcases recent articles and news about homelessness with links to further reading.
+- **Volunteering:** Includes a registration form for those interested in volunteering and contributing to support efforts.
 ## Technologies Used
 - **HTML:** For structuring the web content.
 - **CSS:** For styling the website and making it visually appealing.
